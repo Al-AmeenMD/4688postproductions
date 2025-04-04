@@ -267,45 +267,6 @@ function App() {
           </div>
         </section>
 
-        {/* About Section */}
-        <section id="about" className="py-32 px-8 lg:px-16 bg-zinc-900/50">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-16 items-center">
-              <div className="animate-fade-in-up">
-                <h2 className="text-4xl md:text-5xl font-bold mb-8">The Art of Editing</h2>
-                <p className="text-gray-300 mb-6 text-lg leading-relaxed">
-                  At 4688 Post-Productions, we transform raw footage into compelling visual stories. Our expert editing team specializes in crafting emotional narratives that resonate with viewers.
-                </p>
-                <p className="text-gray-300 mb-8 text-lg leading-relaxed">
-                  Using industry-leading software and techniques, we ensure every frame is perfectly timed, every transition is smooth, and every moment is enhanced to its fullest potential.
-                </p>
-                <div className="grid grid-cols-3 gap-8">
-                  <div className="text-center p-6 rounded-xl glass-card hover-card">
-                    <div className="text-4xl font-bold text-rose-500 mb-2">5</div>
-                    <div className="text-sm text-gray-400">Years Experience</div>
-                  </div>
-                  <div className="text-center p-6 rounded-xl glass-card hover-card">
-                    <div className="text-4xl font-bold text-rose-500 mb-2">500+</div>
-                    <div className="text-sm text-gray-400">Projects Completed</div>
-                  </div>
-                  <div className="text-center p-6 rounded-xl glass-card hover-card">
-                    <div className="text-4xl font-bold text-rose-500 mb-2">100%</div>
-                    <div className="text-sm text-gray-400">Client Satisfaction</div>
-                  </div>
-                </div>
-              </div>
-              <div className="relative group">
-                <img 
-                  src="https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80" 
-                  alt="Video editing workspace" 
-                  className="rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-rose-500/10 rounded-lg group-hover:bg-rose-500/20 transition-colors duration-300"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Pricing Section */}
         <section id="pricing" className="py-16 md:py-32 px-4 md:px-8 lg:px-16 bg-gradient-to-b from-transparent to-black/30">
           <div className="max-w-7xl mx-auto">
@@ -561,6 +522,45 @@ function App() {
                     </ul>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* About Section */}
+        <section id="about" className="py-32 px-8 lg:px-16 bg-zinc-900/50">
+          <div className="max-w-7xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-16 items-center">
+              <div className="animate-fade-in-up">
+                <h2 className="text-4xl md:text-5xl font-bold mb-8">The Art of Editing</h2>
+                <p className="text-gray-300 mb-6 text-lg leading-relaxed">
+                  At 4688 Post-Productions, we transform raw footage into compelling visual stories. Our expert editing team specializes in crafting emotional narratives that resonate with viewers.
+                </p>
+                <p className="text-gray-300 mb-8 text-lg leading-relaxed">
+                  Using industry-leading software and techniques, we ensure every frame is perfectly timed, every transition is smooth, and every moment is enhanced to its fullest potential.
+                </p>
+                <div className="grid grid-cols-3 gap-8">
+                  <div className="text-center p-6 rounded-xl glass-card hover-card">
+                    <div className="text-4xl font-bold text-rose-500 mb-2">5</div>
+                    <div className="text-sm text-gray-400">Years Experience</div>
+                  </div>
+                  <div className="text-center p-6 rounded-xl glass-card hover-card">
+                    <div className="text-4xl font-bold text-rose-500 mb-2">500+</div>
+                    <div className="text-sm text-gray-400">Projects Completed</div>
+                  </div>
+                  <div className="text-center p-6 rounded-xl glass-card hover-card">
+                    <div className="text-4xl font-bold text-rose-500 mb-2">100%</div>
+                    <div className="text-sm text-gray-400">Client Satisfaction</div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative group">
+                <img 
+                  src="https://images.unsplash.com/photo-1622737133809-d95047b9e673?auto=format&fit=crop&q=80" 
+                  alt="Video editing workspace" 
+                  className="rounded-lg shadow-2xl transform group-hover:scale-105 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-rose-500/10 rounded-lg group-hover:bg-rose-500/20 transition-colors duration-300"></div>
               </div>
             </div>
           </div>
