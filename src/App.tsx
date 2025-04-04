@@ -539,18 +539,18 @@ function App() {
                 <p className="text-gray-300 mb-8 text-lg leading-relaxed">
                   Using industry-leading software and techniques, we ensure every frame is perfectly timed, every transition is smooth, and every moment is enhanced to its fullest potential.
                 </p>
-                <div className="grid grid-cols-3 gap-8">
-                  <div className="text-center p-6 rounded-xl glass-card hover-card">
-                    <div className="text-4xl font-bold text-rose-500 mb-2">5</div>
-                    <div className="text-sm text-gray-400">Years Experience</div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8">
+                  <div className="text-center p-4 sm:p-6 rounded-xl glass-card hover-card">
+                    <div className="text-3xl sm:text-4xl font-bold text-rose-500 mb-1 sm:mb-2">5</div>
+                    <div className="text-xs sm:text-sm text-gray-400 whitespace-nowrap">Years Experience</div>
                   </div>
-                  <div className="text-center p-6 rounded-xl glass-card hover-card">
-                    <div className="text-4xl font-bold text-rose-500 mb-2">500+</div>
-                    <div className="text-sm text-gray-400">Projects Completed</div>
+                  <div className="text-center p-4 sm:p-6 rounded-xl glass-card hover-card">
+                    <div className="text-3xl sm:text-4xl font-bold text-rose-500 mb-1 sm:mb-2">500+</div>
+                    <div className="text-xs sm:text-sm text-gray-400 whitespace-nowrap">Projects Completed</div>
                   </div>
-                  <div className="text-center p-6 rounded-xl glass-card hover-card">
-                    <div className="text-4xl font-bold text-rose-500 mb-2">100%</div>
-                    <div className="text-sm text-gray-400">Client Satisfaction</div>
+                  <div className="text-center p-4 sm:p-6 rounded-xl glass-card hover-card">
+                    <div className="text-3xl sm:text-4xl font-bold text-rose-500 mb-1 sm:mb-2">100%</div>
+                    <div className="text-xs sm:text-sm text-gray-400 whitespace-nowrap">Client Satisfaction</div>
                   </div>
                 </div>
               </div>
