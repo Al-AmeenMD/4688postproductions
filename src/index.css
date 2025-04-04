@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.glass-card {
+  backdrop-filter: blur(12px);
+  background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #f43f5e, #fb7185);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(244, 63, 94, 0.1);
+}
